@@ -1,0 +1,132 @@
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-image: url("./assets/background2.jpg");
+  background-repeat: no-repeat;
+}
+
+.header {
+  color: #f79800da;
+  text-shadow: 1px 2px black;
+  position: relative;
+  top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 2em;
+}
+
+.header b {
+  font-size: 17px;
+  transition: 1s;
+}
+
+a:link {
+  text-decoration: none;
+
+}
+
+a {
+    color: #f79800da
+}
+
+.projetos ul {
+    list-style: none;
+}
+
+.header b:hover {
+  font-size: 20px;
+}
+
+
+.container-main {
+  color: #f79800da;
+  text-shadow: 1px 2px black;
+  position: relative;
+  top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.subtitles {
+    margin-left: 1em;
+}
+
+.certificados ul {
+    margin-left: 1em;
+}
+
+#subtitles-h4 {
+    margin-left: -1em;
+}
+
+.links-sociais {
+  display: inline-flex;
+  margin-left: 2em;
+}
+
+.linkedin {
+  margin-left: 1.5em;
+}
+
+.subtitle-linkedin {
+  margin-left: 0.2em;
+}
+
+.subtitle-github {
+  margin-left: 0.8em;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input {
+  display: flex;
+  margin-left: 6em;
+  margin-bottom: 1em;
+  flex-grow: 1;
+  flex-basis: auto;
+  position: relative;
+  bottom: 1.3em;
+  height: 110%;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.forms-inputs {
+  margin-left: 2em;
+}
+
+#mensagem {
+  height: 200px;
+}
+
+.forms-inputs button {
+  width: 14em;
+  justify-content: center;
+}
+
+img {
+  transition: 1s;
+}
+
+img:hover {
+  width: 110px;
+  height: 110px;
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  color:#f79800da
+}

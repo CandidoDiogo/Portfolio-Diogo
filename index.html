@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Diogo Cândido</title>
+    <link rel="stylesheet" href="../../Common Components/normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./assets/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Bem-vindo ao meu portfólio!</h1>
+      <p1
+        >Aqui você verá alguns dos meus <a href="#"><b>projetos</b></a> e<a
+          href="#"
+        >
+          <b>certificações</b> </a
+        >. <br />Fique à vontade para entrar em contato pelo formulário
+        abaixo!</p1
+      >
+    </header>
+    <main>
+      <div class="container-main">
+        <div class="projetos">
+          <h2>Meus Projetos</h2>
+          <ul>
+            <a
+              href="https://github.com/CandidoDiogo/plantmanager-app"
+              class="link"
+              ><li>PlantManagerApp</li></a
+            >
+            <a
+              href="https://github.com/CandidoDiogo/Bloco-de-Notas"
+              class="link"
+              ><li>Bloco de Notas</li></a
+            >
+            <a href="">
+              <li>Portfólio</li>
+            </a>
+          </ul>
+        </div>
+        <div class="certificados">
+          <h2>Meus certificados</h2>
+          <h3 class="subtitles">Alura</h3>
+          <ul>
+            <a
+              href="https://cursos.alura.com.br/user/diogo-candido/fullCertificate/31bbc3b8a3504414f5d731740f5d43e0"
+              ><li>Certificado Completo Alura</li></a
+            >
+            <h4 id="subtitles-h4">Principais Certificados</h4>
+            <a
+              href="https://cursos.alura.com.br/user/diogo-candido/course/logica-programacao-pratica-com-desenho-animacoes-em-jogo/certificate"
+            >
+              <li>
+                Lógica de programação II: pratique com desenhos, animações e um
+                jogo
+              </li>
+            </a>
+            <a
+              href="https://cursos.alura.com.br/user/diogo-candido/course/html5-css3-avancando-css/certificate"
+            >
+              <li>HTML5 e CSS3 Parte 4: Avançando no CSS</li>
+            </a>
+            <a
+              href="https://cursos.alura.com.br/user/diogo-candido/course/javascritpt-orientacao-objetos/certificate"
+            >
+              <li>JavaScript: Programando a orientação a objetos</li>
+            </a>
+            <a
+              href="https://cursos.alura.com.br/user/diogo-candido/course/mobile-first-layouts-responsivos/certificate"
+            >
+            </a>
+            <li>Layouts Responsivos: Trabalhando com layouts mobile</li>
+            <a
+              href="https://cursos.alura.com.br/user/diogo-candido/course/react-function-components/certificate"
+            >
+              <li>React: Function Components, uma abordagem moderna</li>
+            </a>
+            <a
+              href="https://cursos.alura.com.br/user/diogo-candido/course/react-native-function-components/certificate"
+            >
+              <li>React Native: Trabalhando com Function components</li>
+            </a>
+          </ul>
+        </div>
+        <div class="sociais">
+          <h2>Meus Perfis Sociais</h2>
+          <div class="links-sociais">
+            <a href="https://github.com/CandidoDiogo"
+              ><h3 class="subtitle-github">GitHub</h3>
+              <img
+                src="assets/github.svg"
+                alt="GitHub Logo"
+                height="100px"
+                width="100px"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/diogo-candido/"
+              class="linkedin"
+              ><h3 class="subtitle-linkedin">LinkedIn</h3>
+              <img
+                src="assets/linkedin.svg"
+                alt="LinkedIn Logo"
+                height="100px"
+                width="100px"
+            /></a>
+          </div>
+          <div class="formulario">
+            <h2>Entre em contato comigo pelo formulário abaixo</h2>
+            <form action="https://formspree.io/f/xknkjopz" method="POST">
+              <div class="forms-inputs">
+                <label
+                  >Nome: <input class="input" type="text" name="Nome"
+                /></label>
+                <label
+                  >Email:
+                  <input
+                    class="input"
+                    type="email"
+                    name="Email"
+                    placeholder="email@dominio.com"
+                /></label>
+                <label
+                  >Assunto: <input class="input" type="text" name="Assunto"
+                /></label>
+                <label
+                  >Mensagem:
+                  <textarea
+                    class="input"
+                    type="text"
+                    id="mensagem"
+                    name="Mensagem"
+                  ></textarea>
+                </label>
+                <button type="submit" class="input" name="submit">
+                  Enviar Mensagem
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="rodape">
+          <p1>© Diogo Cândido</p1>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
