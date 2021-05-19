@@ -72,6 +72,10 @@ a {
   flex-direction: column;
 }
 
+.sociais h2 {
+  margin-left: -1em
+}
+
 .linkedin {
   margin-left: 1.5em;
 }
@@ -103,7 +107,7 @@ a {
 
 #mensagem {
   height: 200px;
-  width: 13.25em;
+  width: 19em;
   resize: none;
   position: relative;
   bottom: 1.7em;
@@ -112,9 +116,14 @@ a {
   left:6em;
 }
 
-#forms-inputs button {
-  width: 13.7em;
-  justify-content: center;
+.inputbutton {
+  position: relative;
+  right: 14em;
+  height: 110%;
+  border-radius: 5px;
+  border-color: black;
+  width: 19.4em;
+  
 }
 
 img {
