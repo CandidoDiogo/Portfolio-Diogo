@@ -116,6 +116,7 @@ a {
 
 .forms-inputs textarea {
   width: 13.25em;
+  resize: none;
 }
 img {
   transition: 1s;
