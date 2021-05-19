@@ -88,7 +88,7 @@ a {
   align-items: flex-start;
 }
 
-.input {
+.inputdata {
   display: flex;
   margin-left: 6em;
   margin-bottom: 1em;
@@ -110,10 +110,13 @@ a {
 }
 
 .forms-inputs button {
-  width: 14em;
+  width: 13.7em;
   justify-content: center;
 }
 
+.forms-inputs textarea {
+  width: 13.25em;
+}
 img {
   transition: 1s;
 }
