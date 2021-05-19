@@ -106,9 +106,10 @@ a {
   width: 13.25em;
   resize: none;
   position: relative;
-  bottom: 1.3em;
+  bottom: 1.7em;
   border-radius: 5px;
   border-color: black;
+  left:6em;
 }
 
 #forms-inputs button {
