@@ -1,4 +1,5 @@
 
+
 body {
   font-family: "Roboto Mono", monospace;
   background-image: url("./assets/background2.jpg");
@@ -65,9 +66,10 @@ a {
     margin-left: -1em;
 }
 
-.links-sociais {
-  display: inline-flex;
+.sociais {
+  display: flex;
   margin-left: 2em;
+  flex-direction: column;
 }
 
 .linkedin {
