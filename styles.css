@@ -95,28 +95,25 @@ a {
   border-color: black;
 }
 
-.forms-inputs {
+#forms-inputs {
   margin-left: 2em;
 }
 
 #mensagem {
   height: 200px;
-
+  width: 13.25em;
+  resize: none;
   position: relative;
   bottom: 1.3em;
   border-radius: 5px;
   border-color: black;
 }
 
-.forms-inputs button {
+#forms-inputs button {
   width: 13.7em;
   justify-content: center;
 }
 
-.forms-inputs textarea {
-  width: 13.25em;
-  resize: none;
-}
 img {
   transition: 1s;
 }
